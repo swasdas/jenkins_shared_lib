@@ -1,5 +1,6 @@
-def call(){
+def call(String ImgName, String DockerHubUser){
   sh """
-    trivy image  
+    trivy image ${DockerHubUser}/${ImgName}:latest > scan.txt 
+    cat scan.txt 
   """
 }
