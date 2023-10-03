@@ -5,3 +5,6 @@ def call(String ImgName, String ImgTag, String DockerHubUser){
     cat scan.txt 
   """
 }
+
+// find security vulnerabilities in your container images 
+// so it acts as a vulnerability scanner 
