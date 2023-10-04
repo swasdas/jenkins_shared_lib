@@ -1,7 +1,5 @@
 def call(){
-  // sh 'chmod +x mvnw'
-  // sh './mvnw clean install'
-  sh 'mvn -v'
+  // sh 'mvn -v'   // tells maven version 
   sh 'mvn test'
 }  
   // this command will run the tests for a Java project
