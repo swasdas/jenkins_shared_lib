@@ -4,5 +4,5 @@ def call(String ImgName, String ImgTag, String DockerHubUser){
      docker rmi ${DockerHubUser}/${ImgName}:latest
     """
 }
-// docker rmi ${DockerHubUser}/${ImgName} ${DockerHubUser}/${ImgName}:latest
+
 // This command will remove the specified Docker images from your local system
