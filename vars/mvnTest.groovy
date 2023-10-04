@@ -1,6 +1,6 @@
 def call(){
-  sh 'chmod +x mvnw'
-  sh './mvnw clean install'
+  // sh 'chmod +x mvnw'
+  // sh './mvnw clean install'
   sh 'mvn -v'
   sh 'mvn test'
 }  
