@@ -1,4 +1,5 @@
 def call(){
+  sh 'mvn -v'
   sh 'mvn test'
 }  
   // this command will run the tests for a Java project
